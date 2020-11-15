@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+  font-size: 100%;
+}
+
+#navigation {
+  width: 100%;
+  font-size: 150%;
+  border-bottom-style: solid;
+}
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+}
+#navigation li {
+  display: inline;
+  padding: 0.1em;
+}
+#navigation a:link, #navigation a:visited {
+  padding: 0.4em 1em 0.4em 1em;
+  color: #586da7;
+  background-color: white;
+  text-decoration: none;
+}
+#navigation a:hover {
+  color: #586da7;
+  background-color: #bdbdbc;
+}
+
+.title{
+  padding: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  font-size: 200%;
+  font-family: Arial, serif;
+}
+.title h1{
+  color: #586da7;
+}
+.title h6{
+  color: #7d7d7d;
+}
+
+#dayrecipe {
+  padding: 2px;
+  min-height: 30vh;
+  width: 100%;
+  background-color: #ceccd9;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-style: solid;
+  border-bottom-color: #7d7d7d;
+}
+
+.text1 {
+  padding: 3vw;
+  width: 45%;
+  text-align: justify;
+}
+
+.text1 ul{
+  font-style: italic;
+  padding-left: 4vh;
+  padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.picture1 {
+  width: 300px;
+  height: 300px;
+  padding: 5vh;
+}
+
+.picture1 img{
+  width: 100%;
+  height: auto;
+  border-style: double;
+  border-width: 8px;
+}
+
+#quickfix {
+  padding: 2px;
+  min-height: 30vh;
+  width: 100%;
+  background-color: #ceccd9;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-style: solid;
+  border-bottom-color: #7d7d7d;
+}
+
+.text2 {
+  padding: 3vw;
+  width: 45%;
+  text-align: justify;
+}
+
+.text2 ul{
+  font-style: italic;
+  padding-left: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.picture2 {
+  width: 500px;
+  height: auto;
+  padding: 5vh;
+}
+
+.picture2 img{
+  width: 100%;
+  height: auto;
+  border-style: double;
+  border-width: 8px;
+}
+
+#exoticfood {
+  padding: 2px;
+  min-height: 30vh;
+  width: 100%;
+  background-color: #ceccd9;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom-style: solid;
+  border-bottom-color: #7d7d7d;
+}
+
+.text3 {
+  padding: 3vw;
+  width: 45%;
+  text-align: justify;
+}
+
+.text3 ul{
+  font-style: italic;
+  padding-left: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.picture3 {
+  width: 500px;
+  height: 500px;
+  padding: 3vh;
+}
+
+.picture3 img{
+  width: 100%;
+  height: auto;
+  border-style: double;
+  border-width: 8px;
+}
